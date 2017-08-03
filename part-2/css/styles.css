@@ -27,3 +27,55 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+article.film {
+    border: 2px solid rgba(0, 0, 0, 1);
+    /* display: inline-block; */
+    padding: 15px;
+}
+
+.film-details {
+    display: inline-block;
+    width: 50%;
+}
+
+figure.film-poster {
+    display: inline-block;
+    width:  40%;
+}
+.action-like {
+    position: absolute;
+    right: 80;
+    right: 50%;
+    text-align: right;
+}
+
+.action-watch-later {
+    position: absolute;
+    color: red;
+    top: 0;
+    right: 0;
+}
+
+figure.film-poster {
+    position: relative;
+}
+.action-like {
+    position: absolute;
+    right: 80;
+    /* right: 50%; */
+    /* text-align: right; */
+    border: 0;
+    right: 0;
+    color: red;
+}
+
+.action-watch-later {
+    position: absolute;
+    color: red;
+    top: 0;
+    right: 0;
+}
+
+figure.film-poster {
+    position: relative;
+}
